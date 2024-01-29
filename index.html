@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sign Up</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    .container {
+      max-width: 400px;
+      margin-top: 100px;
+    }
+
+    .social-btn {
+      margin-top: 10px;
+    }
+
+    .social-btn a {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .social-btn i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container bg-dark text-white rounded mb-5 p-5">
+    <h2 class="text-center mb-4 text-primary">SIGN UP</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="signupEmail">Email address</label>
+        <input type="email" class="form-control" id="signupEmail" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="signupPassword">Password</label>
+        <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+    </form>
+
+    <div class="text-center mt-3">
+      <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+
+    <div class="social-btn">
+      <p class="text-center">Or sign up with:</p>
+      <a href="#" class="btn btn-outline-primary text-white btn-block"><i class="fab fa-google"></i> Sign up with Google</a>
+      <a href="#" class="btn btn-outline-primary text-white btn-block"><i class="fab fa-facebook-f"></i> Sign up with Facebook</a>
+      <a href="#" class="btn btn-outline-primary text-white btn-block"><i class="fab fa-twitter"></i> Sign up with Twitter</a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
